@@ -1,4 +1,4 @@
-name: null
+name: data_course
 channels:
   - simpleitk
   - conda-forge
