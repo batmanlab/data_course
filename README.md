@@ -82,7 +82,7 @@ This is the first iteration of the Exploratory Data Science Course for students 
 1. Jupyter notebook is a great tool for doing data science, and we will be taking advantage of it during this course.
 1. In order to use jupyter notebook while logged into PSC, we will need to tunnel a connection and forward a port.  This is handled via the `startupjupyter` script.  Try running it and following the instructions:
     ```shell
-    [userid@login018 ~]$ startupjupyter
+    [userid@login018 ~]$ helper_files/startupjupyter
     Your Jupyter Notebook is ready for use.
     ------------------------
     Step 1:
@@ -96,8 +96,9 @@ This is the first iteration of the Exploratory Data Science Course for students 
     ```
 1. Copy and paste the ssh command into a new window to allow port forwarding.  Then open a browser window and go to the localhost location shown above.
 1. Once in notebook, navigate to "notebooks/" and open Course_0.ipynb
-1. Execute all cells in the notebook (Shift-enter on each cell, or go to 'Cell -> Run All'
+1. Execute all cells in the notebook (Shift-enter on each cell, or go to 'Cell -> Run All')
 1. If all cells execute without throwing errors, and you can see plots, then you're good to go!
+![Notebook Plots](images/course_0.png)
 
 
     
