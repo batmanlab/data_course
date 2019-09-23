@@ -8,7 +8,7 @@ This is the first iteration of the Exploratory Data Science Course for students 
 
 ### Log into PSC, install Anaconda
 1. Login to PSC: `ssh -Y {your_username}@pghbio.bridges.psc.edu`
-    1. New to PSC?  Check out the user guides and info! https://www.psc.edu/bridges/user-guide
+    - New to PSC?  Check out the user guides and info! https://www.psc.edu/bridges/user-guide
 1. Check your projects and allocations:
     ```shell
     [userid@login018 ~]$ projects
@@ -71,6 +71,8 @@ This is the first iteration of the Exploratory Data Science Course for students 
 1. If you don't have a GitHub account, it's time to make one!
     1. Check out the instructions here: https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration
 1. Make sure you're in a large-space directory (`cd $SCRATCH`, for instance).
+1. Can you access the `git` commands?  Type `git --version` to test it out. If not, load git via `module`:
+    - `module load git`
 1. Clone the data science repo: `git clone https://github.com/pollackscience/data_course`
 1. `cd data_course`
 1. Install the packages needed for this course.  This could take an hour or so: `conda env create -f environment.yml`
